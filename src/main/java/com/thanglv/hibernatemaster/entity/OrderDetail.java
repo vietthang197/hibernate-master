@@ -17,7 +17,7 @@ public class OrderDetail {
     @Id
     @GeneratedValue(generator = "uuid2")
     @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    @Column(name = "order_detail_id", columnDefinition = "BINARY(16)")
+    @Column(name = "order_detail_id")
     private String id;
 
     // Các trường khác của bảng OrderDetail

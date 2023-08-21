@@ -2,10 +2,8 @@ package com.thanglv.hibernatemaster.services;
 
 import com.thanglv.hibernatemaster.entity.Order;
 import com.thanglv.hibernatemaster.entity.OrderDetail;
-import com.thanglv.hibernatemaster.repository.OrderDetailRepository;
 import com.thanglv.hibernatemaster.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
